@@ -1,1 +1,30 @@
+<div class="trendovi-section">
 
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9" alt="Njega kože">
+    <div class="card-content">
+      <h3>Njega kože</h3>
+      <p>Osnovna rutina za zdravu kožu i njegu tijela.</p>
+      <a class="btn" href="clanak.html">Pročitaj više</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438" alt="Fitness kod kuće">
+    <div class="card-content">
+      <h3>Fitness kod kuće</h3>
+      <p>Brzi treninzi bez opreme, idealni za početnike.</p>
+      <a class="btn" href="clanak.html">Pročitaj više</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1556228578-0d85b1a4d571" alt="Zdrava prehrana">
+    <div class="card-content">
+      <h3>Zdrava prehrana</h3>
+      <p>Jednostavni savjeti za bolju prehranu i energiju tijekom dana.</p>
+      <a class="btn" href="clanak.html">Pročitaj više</a>
+    </div>
+  </div>
+
+</div>
