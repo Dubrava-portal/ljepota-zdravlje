@@ -29,5 +29,24 @@
     <h3>Novi trendovi</h3>
     <p>Novi trendovi i oni u dolasku – uvijek prvi sa svježim idejama za ljepotu i wellness.</p>
     <a class="btn" href="clanak.html">Pročitaj više</a>
-  </div>
-</div>
+ <!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <title>Ljepota</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>Ljepota</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="ljepota.html">Ljepota</a>
+  <a href="zdravlje.html">Zdravlje</a>
+  <a href="fitness.html">Fitness</a>
+</nav>
+
+<div class="container">
+
+  <div class="grid">
