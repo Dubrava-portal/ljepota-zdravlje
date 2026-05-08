@@ -22,9 +22,11 @@ header {
 /* LOGO */
 .logo-banner {
   width: 100%;
-  height: 120px;        /* OVO kontrolira visinu (tanjije/više) */
-  object-fit: cover;    /* da se lijepo “reže” bez deformacije */
-  display: block;
+  height: 140px;          /* visina bannera */
+  background-image: url("logo.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* NAV */
