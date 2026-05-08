@@ -6,8 +6,10 @@ body {
 }
 
 header {
+  header {
   text-align: center;
-  padding: 10px 15px;
+  padding: 5px 10px;   /* manje nego prije */
+  margin: 0;
 }
 
 .logo {
