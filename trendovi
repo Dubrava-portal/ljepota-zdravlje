@@ -1,5 +1,14 @@
 <div class="trendovi-section">
 
+<div class="card">
+  <img src="https://images.unsplash.com/photo-1607746882042-944635dfe10e" alt="Novi trendovi">
+  <div class="card-content">
+    <h3>Novi trendovi</h3>
+    <p>Novi trendovi i oni u dolasku.</p>
+    <a class="btn" href="clanak.html">Pročitaj više</a>
+  </div>
+</div>
+
   <div class="card">
     <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9" alt="Njega kože">
     <div class="card-content">
