@@ -89,3 +89,34 @@ footer {
   color: white;
   margin-top: 40px;
 }
+
+@media (max-width: 768px) {
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  header {
+    font-size: 20px;
+    padding: 15px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .container {
+    padding: 0 15px;
+  }
+
+  .card img {
+    height: 200px;
+  }
+
+}
