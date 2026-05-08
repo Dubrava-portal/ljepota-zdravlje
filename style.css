@@ -1,3 +1,4 @@
+/* RESET */
 * {
   margin: 0;
   padding: 0;
@@ -7,31 +8,33 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
 }
-body {
-  margin: 0;
-  padding: 0;
-}
+
+/* HEADER */
 header {
   text-align: center;
-  padding: 5px 0;
+  padding: 8px 0;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
 }
 
+/* LOGO (ključni dio za “uži header”) */
 .logo {
-  width: 120px;
+  width: 100px;          /* manji logo = tanji header */
+  height: auto;
   display: block;
-  margin: 0 auto 5px auto;
+  margin: 5px auto;
 }
 
+/* NAVIGACIJA */
 nav {
   display: flex;
   justify-content: center;
-  gap: 25px;
+  gap: 20px;
   background: white;
-  padding: 12px;
-  position: sticky;
-  top: 0;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  padding: 8px 0;
 }
 
 nav a {
@@ -40,12 +43,23 @@ nav a {
   font-weight: bold;
 }
 
+/* SLOGAN */
+.slogan {
+  font-size: 0.95rem;
+  color: #666;
+  margin: 5px auto 10px auto;
+  max-width: 800px;
+  line-height: 1.4;
+}
+
+/* CONTAINER */
 .container {
   max-width: 1000px;
   margin: 30px auto;
   padding: 0 20px;
 }
 
+/* HERO */
 .hero {
   background: white;
   padding: 30px;
@@ -54,12 +68,14 @@ nav a {
   box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 }
 
+/* GRID */
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 15px;
 }
 
+/* CARD */
 .card {
   background: white;
   border-radius: 12px;
@@ -81,6 +97,7 @@ nav a {
   color: #ff3d7f;
 }
 
+/* BUTTON */
 .btn {
   display: inline-block;
   margin-top: 10px;
@@ -91,6 +108,7 @@ nav a {
   border-radius: 6px;
 }
 
+/* FOOTER */
 footer {
   text-align: center;
   padding: 25px;
@@ -99,73 +117,24 @@ footer {
   margin-top: 40px;
 }
 
+/* MOBILE */
 @media (max-width: 768px) {
 
   nav {
     flex-direction: column;
-    align-items: center;
     gap: 10px;
-  }
-
-  .hero {
-    grid-template-columns: 1fr;
-  }
-
-  header {
-    font-size: 20px;
-    padding: 15px;
   }
 
   .grid {
     grid-template-columns: 1fr;
   }
 
-  .container {
-    padding: 0 15px;
-  }
-
   .card img {
     height: 200px;
   }
 
-/* Slogan – uža traka i centriranje */
-.slogan {
-  font-size: 1rem;
-  color: #666;
-  margin: 10px auto 20px auto; /* centriranje vertikalno i horizontalno */
-  max-width: 800px;           /* maksimalna širina trake */
-  text-align: center;          /* centrirani tekst */
-  padding: 0 15px;             /* razmak sa strane na mobilnim */
-  line-height: 1.4;            /* bolja čitljivost */
-}
-
-/* Media query za male ekrane */
-@media (max-width: 500px) {
   .slogan {
-    font-size: 0.9rem;         /* manji font na mobitelu */
-    max-width: 90%;            /* još uža traka */
+    font-size: 0.9rem;
+    max-width: 90%;
   }
-}
-
-  header {
-  background: white;
-  padding: 20px;
-  text-align: center;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
-}
-  <link rel="stylesheet" href="style.css">
-
-  .logo {
-  width: 120px;
-  height: auto;
-  display: block;
-  margin: 0 auto 5px auto; /* manje prostora ispod loga */
-}
-
-nav {
-  margin: 5px 0; /* smanjuje visinu menija */
-}
-
-.slogan {
-  margin: 5px 0 10px 0; /* manji razmaci gore/dolje */
 }
