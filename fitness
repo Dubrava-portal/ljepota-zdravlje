@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness - Dubrava</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>Fitness</header>
+  <nav>
+    <a href="ljepota.html">Ljepota</a>
+    <a href="zdravlje.html">Zdravlje</a>
+    <a href="trendovi.html">Najnoviji trendovi</a>
+  </nav>
+
+  <div class="container">
+    <div class="grid">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1554284126-4d53b7e9d703?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=400" alt="Fitness kod kuće">
+        <div class="card-content">
+          <h3>Treninzi su in</h3>
+          <p>Od teretane do kućnih vježbi.</p>
+          <a class="btn" href="clanak.html">Pročitaj</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>© dizajn_by_sandra 2026</footer>
+</body>
+</html>
