@@ -11,7 +11,6 @@ body {
   margin: 0;
 }
 
-/* HEADER */
 header {
   text-align: center;
   background: white;
@@ -19,13 +18,11 @@ header {
   box-shadow: 0 2px 10px rgba(0,0,0,0.08);
 }
 
-/* LOGO */
 .logo {
   width: 100%;
-  max-height: 90px;      /* kontrola visine */
-  object-fit: contain;   /* NE rasteže, NE reže */
+  max-height: 80px;   /* kontrola visine */
+  object-fit: contain;
   display: block;
-  margin: 0 auto;
 }
 
 /* NAV */
