@@ -22,7 +22,7 @@ header {
 /* LOGO */
 .logo-banner {
   width: 100%;
-  height: 140px;          /* visina bannera */
+  height: 2200px;          /* visina bannera */
   background-image: url("logo.png");
   background-size: cover;
   background-position: center;
