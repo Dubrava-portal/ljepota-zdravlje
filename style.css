@@ -1,22 +1,21 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background: #f7f7fb;
-  color: #111;
+  padding: 0;
 }
-
+body {
+  margin: 0;
+  padding: 0;
+}
 header {
-  header {
   text-align: center;
-  padding: 5px 10px;   /* manje nego prije */
+  padding: 5px 0;
   margin: 0;
 }
 
 .logo {
-  width: 140px;
-  height: auto;
+  width: 120px;
   display: block;
-  margin: 0 auto 10px auto;
+  margin: 0 auto 5px auto;
 }
 
 nav {
