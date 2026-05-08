@@ -1,2 +1,2 @@
-# ljepota-zdravlje
-Portal posvećen ljepoti, zdravlju, fitnessu i njezi tijela s praktičnim savjetima i člancima.
+# Puls Dubrave
+Portal posvećen ljepoti, zdravlju, fitnessu i njezi tijela u našem kvartu.
