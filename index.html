@@ -70,3 +70,22 @@
   </footer>
 </body>
 </html>
+
+/* Slogan – uža traka i centriranje */
+.slogan {
+  font-size: 1rem;
+  color: #666;
+  margin: 10px auto 20px auto; /* centriranje vertikalno i horizontalno */
+  max-width: 800px;           /* maksimalna širina trake */
+  text-align: center;          /* centrirani tekst */
+  padding: 0 15px;             /* razmak sa strane na mobilnim */
+  line-height: 1.4;            /* bolja čitljivost */
+}
+
+/* Media query za male ekrane */
+@media (max-width: 500px) {
+  .slogan {
+    font-size: 0.9rem;         /* manji font na mobitelu */
+    max-width: 90%;            /* još uža traka */
+  }
+}
