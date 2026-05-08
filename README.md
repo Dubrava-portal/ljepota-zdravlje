@@ -1,2 +1,2 @@
 # Puls Dubrave
-Portal posvećen ljepoti, zdravlju, fitnessu i njezi tijela u našem kvartu.
+Lifestyle portal za ljepotu, zdravlje, prehranu i urbani život u našem kvartu.
