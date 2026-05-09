@@ -35,12 +35,15 @@ body {
 
 /* SLOGAN */
 .slogan {
-  font-size: 1.05rem;
-  color: #0046ad;
-  margin: 12px;
-  text-transform: uppercase;
-  font-weight: 600;
-  letter-spacing: 1.2px;
+  font-size: 1.2rem !important;
+  color: #0046ad !important;
+
+  text-transform: uppercase !important;
+
+  font-weight: 700 !important;
+  letter-spacing: 1.5px;
+
+  margin: 15px 0;
 }
 
 /* NAVIGATION */
