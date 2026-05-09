@@ -1,87 +1,135 @@
-<!DOCTYPE html>
-<html lang="hr">
+/* RESET */
+.logo-bar {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  background: white;
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Puls Dubrave - lifestyle portal</title>
-  <link rel="stylesheet" href="style.css">
-</head>
+html, body {
+  margin: 0;
+  padding: 0;
+}
 
-<body>
+/* HEADER */
+.top-header {
+  text-align: center;
+  background: white;
+  padding: 10px 0;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
 
-<!-- HEADER -->
-<header class="top-header">
+.logo-bar {
+  width: 100%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
 
-  <div class="logo-bar">
-    <img src="logo2.png" alt="Puls Dubrave" class="logo">
-  </div>
+/* SLOGAN */
+.slogan {
+  color: #666;
+  margin-top: 10px;
+  font-size: 0.95rem;
+}
 
-  <p class="slogan">
-    Lifestyle portal za ljepotu, zdravlje i urbani život
-  </p>
+/* NAV */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
 
-  <nav>
-    <a href="ljepota.html">Ljepota</a>
-    <a href="zdravlje.html">Zdravlje</a>
-    <a href="fitness.html">Fitness</a>
-    <a href="njega.html">Njega</a>
-  </nav>
+nav a {
+  text-decoration: none;
+  color: #ff3d7f;
+  font-weight: bold;
+}
 
-</header>
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  padding: 25px;
+}
 
-<!-- GLAVNI SADRŽAJ -->
-<main>
+/* CARD */
+.card {
+  background: white;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
 
-  <section class="grid">
+.card img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+}
 
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9" alt="Njega kože">
+.card-content {
+  padding: 16px;
+}
 
-      <div class="card-content">
-        <h3>Njega kože</h3>
-        <p>Savjeti za zdravu i lijepu kožu.</p>
+.card h3 {
+  color: #ff3d7f;
+  margin-bottom: 10px;
+}
 
-        <a class="btn" href="ljepota.html">
-          Pročitaj više
-        </a>
-      </div>
-    </div>
+/* BUTTON */
+.btn {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 8px 14px;
+  background: #ff3d7f;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
 
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438" alt="Fitness">
+/* FOOTER */
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  margin-top: 30px;
+}
 
-      <div class="card-content">
-        <h3>Fitness</h3>
-        <p>Brzi treninzi i savjeti za aktivan život.</p>
+@media (max-width: 768px) {
 
-        <a class="btn" href="fitness.html">
-          Pročitaj više
-        </a>
-      </div>
-    </div>
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
 
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092" alt="Zdrava prehrana">
+  .logo {
+    max-width: 90%;
+  }
 
-      <div class="card-content">
-        <h3>Zdrava prehrana</h3>
-        <p>Recepti i savjeti za zdrav život.</p>
+  /* FEED FULL MOBILE STYLE */
+  .post {
+    flex-direction: column;
+  }
 
-        <a class="btn" href="zdrava-prehrana.html">
-          Pročitaj više
-        </a>
-      </div>
-    </div>
+  .post img {
+    width: 100%;
+    height: 180px;
+  }
 
-  </section>
+  .post-content h3 {
+    font-size: 1.2rem;
+  }
 
-</main>
-
-<!-- FOOTER -->
-<footer>
-  © dizajn_by_Sandra - Puls Dubrave
-</footer>
-
-</body>
-</html>
+  .post-content p {
+    font-size: 1rem;
+  }
+}
