@@ -21,6 +21,13 @@ body {
 
 /* LOGO WRAP */
 
+.logo {
+  max-width: 300px;
+  max-height: 90px;
+  display: block;
+  margin: 0 auto;
+}
+
 /* HERO BANNER */
 
 .hero-banner {
