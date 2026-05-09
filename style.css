@@ -32,8 +32,8 @@ body {
 
 .hero-banner {
   width: 100%;
-  max-height: 120px;
-  overflow: hidden;
+  max-height: visible;
+  overflow: none;
 }
 
 .hero-banner img {
