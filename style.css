@@ -107,13 +107,34 @@ footer {
 /* MOBILE */
 @media (max-width: 768px) {
 
+  /* NAV – uredniji mobilni izgled */
   nav {
     flex-direction: column;
-    gap: 10px;
+    gap: 12px;
+    margin-top: 10px;
   }
 
+  nav a {
+    font-size: 1.1rem; /* VEĆE RUBRIKE */
+  }
+
+  /* LOGO manji na mobitelu */
+  .logo {
+    max-width: 85%;
+  }
+
+  /* SLOGAN veći i čitljiviji */
+  .slogan {
+    font-size: 1.1rem;
+    padding: 0 15px;
+    text-align: center;
+  }
+
+  /* GRID – manje razmaka */
   .grid {
+    padding: 15px;
+    gap: 15px;
     grid-template-columns: 1fr;
   }
-
+}
 }
