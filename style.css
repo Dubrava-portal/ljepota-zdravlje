@@ -19,21 +19,18 @@ body {
 }
 
 /* LOGO BAR (traka) */
- .logo {
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-}
-/* LOGO */
 .logo-bar {
-  width: 100vw;
-  margin-left: calc(-50vw + 50%);
+  width: 100%;
+  background: white;
   display: flex;
   justify-content: center;
-  background: white;
+  padding: 15px 0;
+}
+
+.logo {
+  max-width: 1200px;
+  width: 100%;
+  height: auto;
 }
 
 /* SLOGAN */
