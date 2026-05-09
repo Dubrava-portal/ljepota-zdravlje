@@ -22,8 +22,10 @@ body {
 /* LOGO BAR */
 .logo-bar {
   width: 100%;
-  overflow: hidden;
-  padding: 0;
+  background: white;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
 }
 
 /* LOGO */
