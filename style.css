@@ -144,10 +144,15 @@ footer {
     max-width: 95%;
   }
 
-  .slogan {
-    font-size: 1rem;
-    padding: 0 10px;
-  }
+ .slogan {
+  font-size: 1rem;
+  padding: 0 10px;
+
+  color: #0046ad;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
 
   nav {
     gap: 12px;
