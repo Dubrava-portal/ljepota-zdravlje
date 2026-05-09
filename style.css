@@ -22,9 +22,13 @@ body {
 .logo-bar {
   width: 100%;
   background: white;
-  padding: 10px 0;
 }
 
+.logo-bar img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 /* LOGO */
 .logo {
   max-width: 280px;
