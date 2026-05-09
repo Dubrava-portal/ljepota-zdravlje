@@ -114,34 +114,30 @@ footer {
 /* MOBILE */
 @media (max-width: 768px) {
 
-  /* NAV – uredniji mobilni izgled */
   nav {
     flex-direction: column;
-    gap: 12px;
-    margin-top: 10px;
+    gap: 10px;
   }
 
-  nav a {
-    font-size: 1.1rem; /* VEĆE RUBRIKE */
-  }
-
-  /* LOGO manji na mobitelu */
   .logo {
-    max-width: 85%;
+    max-width: 90%;
   }
 
-  /* SLOGAN veći i čitljiviji */
-  .slogan {
-    font-size: 1.1rem;
-    padding: 0 15px;
-    text-align: center;
+  /* FEED FULL MOBILE STYLE */
+  .post {
+    flex-direction: column;
   }
 
-  /* GRID – manje razmaka */
-  .grid {
-    padding: 15px;
-    gap: 15px;
-    grid-template-columns: 1fr;
+  .post img {
+    width: 100%;
+    height: 180px;
   }
-}
+
+  .post-content h3 {
+    font-size: 1.2rem;
+  }
+
+  .post-content p {
+    font-size: 1rem;
+  }
 }
