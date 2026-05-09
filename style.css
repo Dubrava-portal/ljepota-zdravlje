@@ -1,8 +1,11 @@
 /* RESET */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.logo-bar {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  background: white;
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
 }
 
 body {
