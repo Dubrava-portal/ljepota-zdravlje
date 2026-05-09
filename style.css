@@ -19,12 +19,12 @@ body {
 }
 
 /* LOGO BAR (traka) */
-.logo {
+ .logo {
+  width: 100%;
   max-width: 100%;
-  max-height: 120px;
-  max-width + auto height;
-  width: auto;
-  margin: 0 auto;
+  height: auto;
+  display: block;
+}
 
 }
 /* LOGO */
