@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ljepota i zdravlje</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Ljepota i zdravlje</h1>
+
+<h2 id="estetika">Estetski tretmani lica i tijela</h2>
+<p>Ovdje ide tekst.</p>
+
+<h2 id="frizeri">Frizerski saloni i barberi</h2>
+<p>Ovdje ide tekst.</p>
+
+<h2 id="nokti">Njega noktiju</h2>
+<p>Ovdje ide tekst.</p>
+
+<h2 id="obrve">Uređivanje trepavica i obrva</h2>
+<p>Ovdje ide tekst.</p>
+
+<h2 id="dental">Dentalni centri u kvartu</h2>
+<p>Ovdje ide tekst.</p>
+
+<h2 id="medicina">Medicinski centri u kvartu</h2>
+<p>Ovdje ide tekst.</p>
+
+</body>
+</html>
