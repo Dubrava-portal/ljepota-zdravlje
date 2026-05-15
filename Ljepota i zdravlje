@@ -4,10 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>Ljepota i zdravlje</title>
 
- <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -15,39 +14,39 @@
 <div class="beauty-grid">
 
   <div class="beauty-card">
-    <img src="slike/estetika.jpg" alt="">
+    <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9" alt="">
     <h2>Estetski tretmani</h2>
     <p>Opis teksta.</p>
   </div>
 
   <div class="beauty-card">
-    <img src="slike/frizer.jpg" alt="">
+    <img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f" alt="">
     <h2>Frizerski saloni</h2>
     <p>Opis teksta.</p>
   </div>
 
   <div class="beauty-card">
-    <img src="slike/nokti.jpg" alt="">
+    <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371" alt="">
     <h2>Njega noktiju</h2>
     <p>Opis teksta.</p>
   </div>
 
   <div class="beauty-card">
-    <img src="slike/obrve.jpg" alt="">
+    <img src="https://images.unsplash.com/photo-1519014816548-bf5fe059798b" alt="">
     <h2>Obrve i trepavice</h2>
-    <p>Ovdje ide tekst.</p>
+    <p>Opis teksta.</p>
   </div>
 
   <div class="beauty-card">
-    <img src="slike/dental.jpg" alt="">
+    <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5" alt="">
     <h2>Dentalni centri</h2>
-    <p>Ovdje ide tekst.</p>
+    <p>Opis teksta.</p>
   </div>
 
   <div class="beauty-card">
-    <img src="slike/medicina.jpg" alt="">
+    <img src="https://images.unsplash.com/photo-1516549655169-df83a0774514" alt="">
     <h2>Medicinski centri</h2>
-    <p>Ovdje ide tekst.</p>
+    <p>Opis teksta.</p>
   </div>
 
 </div>
