@@ -220,8 +220,6 @@ footer {
   transform: translateY(-4px);
 }
 
-/* POST IMAGE */
-
 .post img {
   width: 100%;
   height: 320px;
@@ -229,15 +227,11 @@ footer {
   display: block;
 }
 
-/* POST TITLE */
-
 .post h1 {
   font-size: 1.8rem;
   color: #0046ad;
   padding: 20px 20px 10px;
 }
-
-/* POST TEXT */
 
 .post p {
   padding: 0 20px 25px;
@@ -246,8 +240,6 @@ footer {
   font-size: 1rem;
 }
 
-/* META */
-
 .post .meta {
   padding: 0 20px;
   font-size: 0.85rem;
@@ -255,7 +247,9 @@ footer {
   margin-bottom: 10px;
 }
 
-/* LJEPOTA I ZDRAVLJE */
+/* ========================= */
+/* BEAUTY GRID (ISPRAVNO)    */
+/* ========================= */
 
 .beauty-grid {
   display: grid;
@@ -287,9 +281,7 @@ footer {
   margin: 10px;
 }
 
-}
-
-/* TABLET */
+/* RESPONSIVE */
 
 @media (max-width: 1200px) {
   .beauty-grid {
@@ -297,10 +289,23 @@ footer {
   }
 }
 
-/* MOBILE */
-
 @media (max-width: 768px) {
   .beauty-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 15px;
+  }
+
+  .card img {
+    height: 210px;
+  }
+
+  .slogan {
+    font-size: 0.95rem;
+    margin-bottom: 40px;
   }
 }
