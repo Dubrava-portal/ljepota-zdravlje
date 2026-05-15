@@ -1,34 +1,39 @@
-<!DOCTYPE html>
-<html lang="hr">
+<div class="grid">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ljepota i zdravlje</title>
-  <link rel="stylesheet" href="style.css">
-</head>
+  <div class="card">
+    <img src="slike/estetika.jpg" alt="">
+    <h2>Estetski tretmani</h2>
+    <p>Ovdje ide tekst.</p>
+  </div>
 
-<body>
+  <div class="card">
+    <img src="slike/frizer.jpg" alt="">
+    <h2>Frizerski saloni</h2>
+    <p>Ovdje ide tekst.</p>
+  </div>
 
-<h1>Ljepota i zdravlje</h1>
+  <div class="card">
+    <img src="slike/nokti.jpg" alt="">
+    <h2>Njega noktiju</h2>
+    <p>Ovdje ide tekst.</p>
+  </div>
 
-<h2 id="estetika">Estetski tretmani lica i tijela</h2>
-<p>Ovdje ide tekst.</p>
+  <div class="card">
+    <img src="slike/obrve.jpg" alt="">
+    <h2>Obrve i trepavice</h2>
+    <p>Ovdje ide tekst.</p>
+  </div>
 
-<h2 id="frizeri">Frizerski saloni i barberi</h2>
-<p>Ovdje ide tekst.</p>
+  <div class="card">
+    <img src="slike/dental.jpg" alt="">
+    <h2>Dentalni centri</h2>
+    <p>Ovdje ide tekst.</p>
+  </div>
 
-<h2 id="nokti">Njega noktiju</h2>
-<p>Ovdje ide tekst.</p>
+  <div class="card">
+    <img src="slike/medicina.jpg" alt="">
+    <h2>Medicinski centri</h2>
+    <p>Ovdje ide tekst.</p>
+  </div>
 
-<h2 id="obrve">Uređivanje trepavica i obrva</h2>
-<p>Ovdje ide tekst.</p>
-
-<h2 id="dental">Dentalni centri u kvartu</h2>
-<p>Ovdje ide tekst.</p>
-
-<h2 id="medicina">Medicinski centri u kvartu</h2>
-<p>Ovdje ide tekst.</p>
-
-</body>
-</html>
+</div>
