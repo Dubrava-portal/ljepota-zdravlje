@@ -250,3 +250,71 @@ footer {
   color: gray;
   margin-bottom: 10px;
 }
+
+  /* LJEPOTA I ZDRAVLJE GRID */
+
+.beauty-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 15px;
+
+  max-width: 1600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* KARTICE */
+
+.beauty-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.beauty-card:hover {
+  transform: translateY(-4px);
+}
+
+/* SLIKE */
+
+.beauty-card img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  display: block;
+}
+
+/* NASLOV */
+
+.beauty-card h2 {
+  font-size: 15px;
+  color: #0046ad;
+  margin: 10px;
+}
+
+/* TEKST */
+
+.beauty-card p {
+  font-size: 13px;
+  color: #555;
+  margin: 10px;
+  line-height: 1.5;
+}
+
+/* TABLET */
+
+@media (max-width: 1200px) {
+  .beauty-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* MOBITEL */
+
+@media (max-width: 768px) {
+  .beauty-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
