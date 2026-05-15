@@ -184,9 +184,7 @@ footer {
 
   .grid {
     grid-template-columns: 1fr;
-
     gap: 20px;
-
     padding: 15px;
   }
 
@@ -196,8 +194,12 @@ footer {
 
   .slogan {
     font-size: 0.95rem;
+    margin-bottom: 40px;
+  }
 
-    margin-bottom: 40px;}
+}
+
+/* CATEGORY PAGE */
 
 .category-page {
   max-width: 900px;
@@ -205,7 +207,8 @@ footer {
   padding: 20px;
 }
 
-/* jedan članak */
+/* POST */
+
 .post {
   background: white;
   border-radius: 20px;
@@ -219,7 +222,8 @@ footer {
   transform: translateY(-4px);
 }
 
-/* slika članka */
+/* POST IMAGE */
+
 .post img {
   width: 100%;
   height: 320px;
@@ -227,14 +231,16 @@ footer {
   display: block;
 }
 
-/* naslov članka */
+/* POST TITLE */
+
 .post h1 {
   font-size: 1.8rem;
   color: #0046ad;
   padding: 20px 20px 10px;
 }
 
-/* tekst članka */
+/* POST TEXT */
+
 .post p {
   padding: 0 20px 25px;
   line-height: 1.7;
@@ -242,7 +248,8 @@ footer {
   font-size: 1rem;
 }
 
-/* mali label (opcionalno) */
+/* META */
+
 .post .meta {
   padding: 0 20px;
   font-size: 0.85rem;
@@ -250,7 +257,7 @@ footer {
   margin-bottom: 10px;
 }
 
-  /* LJEPOTA I ZDRAVLJE GRID */
+/* LJEPOTA I ZDRAVLJE */
 
 .beauty-grid {
   display: grid;
@@ -261,8 +268,6 @@ footer {
   margin: 40px auto;
   padding: 20px;
 }
-
-/* KARTICE */
 
 .beauty-card {
   background: white;
@@ -276,8 +281,6 @@ footer {
   transform: translateY(-4px);
 }
 
-/* SLIKE */
-
 .beauty-card img {
   width: 100%;
   height: 120px;
@@ -285,15 +288,11 @@ footer {
   display: block;
 }
 
-/* NASLOV */
-
 .beauty-card h2 {
   font-size: 15px;
   color: #0046ad;
   margin: 10px;
 }
-
-/* TEKST */
 
 .beauty-card p {
   font-size: 13px;
@@ -310,7 +309,7 @@ footer {
   }
 }
 
-/* MOBITEL */
+/* MOBILE */
 
 @media (max-width: 768px) {
   .beauty-grid {
