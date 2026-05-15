@@ -1,36 +1,36 @@
-<div class="grid">
+<div class="beauty-grid">
 
-  <div class="card">
+  <div class="beauty-card">
     <img src="slike/estetika.jpg" alt="">
     <h2>Estetski tretmani</h2>
-    <p>Ovdje ide tekst.</p>
+    <p>Opis teksta.</p>
   </div>
 
-  <div class="card">
+  <div class="beauty-card">
     <img src="slike/frizer.jpg" alt="">
     <h2>Frizerski saloni</h2>
-    <p>Ovdje ide tekst.</p>
+    <p>Opis teksta.</p>
   </div>
 
-  <div class="card">
+  <div class="beauty-card">
     <img src="slike/nokti.jpg" alt="">
     <h2>Njega noktiju</h2>
-    <p>Ovdje ide tekst.</p>
+    <p>Opis teksta.</p>
   </div>
 
-  <div class="card">
+  <div class="beauty-card">
     <img src="slike/obrve.jpg" alt="">
     <h2>Obrve i trepavice</h2>
     <p>Ovdje ide tekst.</p>
   </div>
 
-  <div class="card">
+  <div class="beauty-card">
     <img src="slike/dental.jpg" alt="">
     <h2>Dentalni centri</h2>
     <p>Ovdje ide tekst.</p>
   </div>
 
-  <div class="card">
+  <div class="beauty-card">
     <img src="slike/medicina.jpg" alt="">
     <h2>Medicinski centri</h2>
     <p>Ovdje ide tekst.</p>
