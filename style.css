@@ -114,8 +114,10 @@ body {
   .beauty-grid {
   display: grid;
   grid-template-columns: repeat(6, minmax(0, 1fr));
-  gap: 10px;
-  width: 100%;
+  gap: 8px;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
 }
 
 /* BEAUTY CARD */
