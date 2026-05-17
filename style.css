@@ -129,6 +129,8 @@ body {
   height: 120px;
   object-fit: cover;
   display: block;
+  display: none;
+}
 }
 
 .beauty-card h2 {
