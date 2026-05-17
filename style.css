@@ -167,6 +167,16 @@ footer {
   }
 }
 
+@media (max-width: 768px) {
+
+  .beauty-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
   .card img {
     height: 210px;
   }
