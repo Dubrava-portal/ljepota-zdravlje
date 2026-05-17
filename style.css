@@ -263,6 +263,8 @@ footer {
 }
 
 .beauty-card {
+  .beauty-card {
+  min-height: 100%;
   background: white;
   border-radius: 12px;
   overflow: hidden;
@@ -270,6 +272,7 @@ footer {
 }
 
 .beauty-card img {
+  height: 220px;
   width: 100%;
   height: 120px;
   object-fit: cover;
