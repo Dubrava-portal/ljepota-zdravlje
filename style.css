@@ -102,11 +102,11 @@ body {
 }
 
 /* CATEGORY PAGE */
-.category-page {
-  width: 100vw;
-  max-width: 100vw;
+  main, .category-page {
+  width: 100%;
+  max-width: none;
   margin: 0;
-  padding: 0 8px;
+  padding: 0;
 }
 
 /* BEAUTY GRID */
