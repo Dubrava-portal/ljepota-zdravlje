@@ -156,27 +156,16 @@ footer {
 
 /* TABLET */
 @media (max-width: 1200px) {
-
   .beauty-grid {
     grid-template-columns: repeat(3, 1fr);
   }
-
-  .grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
 
-/* MOBILE */
 @media (max-width: 768px) {
-
-  .grid {
-    grid-template-columns: 1fr;
-    gap: 20px;
-  }
-
   .beauty-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+}
 
   .card img {
     height: 210px;
