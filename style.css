@@ -171,6 +171,39 @@ footer {
   }
 
   .news-item img {
+
+    /* BEAUTY GRID (NEDOSTAJE TI OVO) */
+.beauty-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+.beauty-card {
+  background: white;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+}
+
+.beauty-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.beauty-card h2 {
+  padding: 12px 15px 5px;
+  color: #0046ad;
+}
+
+.beauty-card p {
+  padding: 0 15px 15px;
+  font-size: 0.9rem;
+}
     width: 100%;
     height: 180px;
   }
