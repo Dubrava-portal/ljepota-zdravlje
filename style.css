@@ -60,10 +60,7 @@ body {
 
 .card-content {
   padding: 18px;
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
+  }
 
 .card:hover {
   transform: translateY(-5px);
