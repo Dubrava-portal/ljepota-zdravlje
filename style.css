@@ -169,3 +169,32 @@ footer {
     height: 180px;
   }
 }
+
+/* FIX ZA LJEPOTA STRANICU */
+.news-item img {
+  width: 120px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+.news-item {
+  align-items: flex-start;
+}
+
+.quick-nav {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 20px 0 30px;
+}
+
+.quick-nav a {
+  background: #0046ad;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
