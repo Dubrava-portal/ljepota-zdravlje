@@ -12,7 +12,7 @@
 
 <header class="top-header">
   <a href="index.html">
-    <img src="banner1a.png" class="logo">
+    <img src="../banner1a.png">
   </a>
 </header>
 
