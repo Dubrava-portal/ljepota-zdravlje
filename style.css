@@ -5,12 +5,13 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: system-ui, Arial, sans-serif;
-  background: #f5f6f8;
-  color: #222;
-}
 
+  body {
+  font-family: 'Georgia', serif;
+  background: #f5f5f5;
+  color: #333;
+}
+ 
 /* HEADER */
 .top-header {
   background: white;
