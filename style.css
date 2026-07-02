@@ -199,3 +199,6 @@ footer {
   text-decoration: none;
   font-size: 0.9rem;
 }
+img {
+  max-width: 100%;
+}
