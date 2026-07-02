@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ljepota i zdravlje</title>
+  <title>Ljepota i zdravlje - Puls Dubrave</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -16,41 +16,100 @@
   </a>
 </header>
 
-<main class="news-list">
+<main class="category-page">
 
-  <h1>Ljepota i zdravlje</h1>
+<h1>Ljepota i zdravlje u Dubravi</h1>
 
-  <!-- ČLANAK 1 -->
-  <article class="news-item">
-    <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5" alt="">
-    <div>
-      <span class="tag">Estetski tretmani</span>
-      <h2>Najbolji tretmani lica u Dubravi</h2>
-      <p>Kratki opis članka koji uvodi čitatelja u temu...</p>
-    </div>
-  </article>
+<p>
+Pratimo frizere, kozmetiku, wellness i zdravlje u kvartu.
+Sve na jednom mjestu.
+</p>
 
-  <!-- ČLANAK 2 -->
-  <article class="news-item">
-    <img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f" alt="">
-    <div>
-      <span class="tag">Frizerski saloni</span>
-      <h2>Gdje pronaći najbolje frizere u kvartu</h2>
-      <p>Pregled najboljih salona i preporuke...</p>
-    </div>
-  </article>
+<div class="quick-nav">
+  <a href="#frizeri">💇 Frizeri</a>
+  <a href="#kozmetika">💄 Kozmetika</a>
+  <a href="#dental">🦷 Dental</a>
+  <a href="#fitness">🏋️ Fitness</a>
+</div>
 
-  <!-- ČLANAK 3 -->
-  <article class="news-item">
-    <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371" alt="">
-    <div>
-      <span class="tag">Njega noktiju</span>
-      <h2>Top saloni za nokte i obrve</h2>
-      <p>Što nude i kako odabrati pravi salon...</p>
-    </div>
-  </article>
+<!-- FRIZERI -->
+<section id="frizeri">
+
+<h2>Frizerski saloni</h2>
+
+<article class="news-item">
+  <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9">
+  <div>
+    <span class="tag">Frizeri</span>
+    <h3>Otvoren novi salon u Dubravi</h3>
+    <p>Kratki opis članka o novom salonu...</p>
+  </div>
+</article>
+
+<article class="news-item">
+  <img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f">
+  <div>
+    <span class="tag">Trendovi</span>
+    <h3>Top frizure za 2026</h3>
+    <p>Novi trendovi u frizurama...</p>
+  </div>
+</article>
+
+</section>
+
+<!-- KOZMETIKA -->
+<section id="kozmetika">
+
+<h2>Kozmetički saloni</h2>
+
+<article class="news-item">
+  <img src="https://images.unsplash.com/photo-1596704017254-9b121068fb31">
+  <div>
+    <span class="tag">Kozmetika</span>
+    <h3>Novi beauty studio u kvartu</h3>
+    <p>Otvoren novi salon...</p>
+  </div>
+</article>
+
+</section>
+
+<!-- DENTAL -->
+<section id="dental">
+
+<h2>Dental</h2>
+
+<article class="news-item">
+  <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5">
+  <div>
+    <span class="tag">Dental</span>
+    <h3>Kako odabrati stomatologa</h3>
+    <p>Savjeti za odabir...</p>
+  </div>
+</article>
+
+</section>
+
+<!-- FITNESS -->
+<section id="fitness">
+
+<h2>Fitness</h2>
+
+<article class="news-item">
+  <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438">
+  <div>
+    <span class="tag">Fitness</span>
+    <h3>Najbolje teretane u Dubravi</h3>
+    <p>Pregled teretana...</p>
+  </div>
+</article>
+
+</section>
 
 </main>
+
+<footer>
+  © Puls Dubrave
+</footer>
 
 </body>
 </html>
