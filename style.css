@@ -163,6 +163,7 @@ footer {
 }
 
 /* MOBILE */
+
 @media (max-width: 900px) {
   .grid {
     grid-template-columns: 1fr;
@@ -173,8 +174,14 @@ footer {
   }
 
   .news-item img {
+    width: 100%;
+    height: 180px;
+  }
 
-    /* BEAUTY GRID (NEDOSTAJE TI OVO) */
+    flex-direction: column;
+  }
+
+  /* BEAUTY GRID */
 .beauty-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -205,8 +212,4 @@ footer {
 .beauty-card p {
   padding: 0 15px 15px;
   font-size: 0.9rem;
-}
-    width: 100%;
-    height: 180px;
-  }
 }
