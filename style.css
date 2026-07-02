@@ -51,11 +51,18 @@ body {
 .card {
   background: white;
   border-radius: 18px;
-  overflow: hidden;
+  overflow: visible;   /* 🔥 OVO JE KLJUČNO */
   text-decoration: none;
   color: inherit;
   box-shadow: 0 4px 15px rgba(0,0,0,0.06);
   transition: 0.2s;
+}
+
+.card-content {
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
 }
 
 .card:hover {
