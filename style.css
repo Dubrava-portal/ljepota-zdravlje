@@ -19,15 +19,25 @@ body {
   box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 }
 
-.logo-bar {
-  display: flex;
-  justify-content: center;
-  padding: 10px;
+.logo-bar{
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-.logo {
+.logo{
   width: 100%;
-  max-width: 1200px;
+  height: 300px;   /* možeš mijenjati */
+  object-fit: cover;
+  display: block;
+}
+
+.home .logo{
+  height: 300px;
+}
+
+.subpage .logo{
+  height: 150px;
 }
 
 .slogan {
