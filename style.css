@@ -12,16 +12,14 @@ body {
 
 }
 
-.logo-bar{
-  width: 100%;
-  padding: 20px;          /* “zrak” oko bannera */
+  .logo-bar{
+  padding: 20px 30px;
   box-sizing: border-box;
 }
 
 .logo{
   width: 100%;
-  height: 250px;
-  object-fit: cover;
+  height: auto;        /* KLJUČ: nema rezanja */
   display: block;
   border-radius: 10px;
 }
