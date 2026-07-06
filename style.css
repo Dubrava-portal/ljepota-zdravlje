@@ -298,3 +298,13 @@ body{
   display: block;
   border-radius: 12px; /* lijepi magazin look */
 }
+
+/* glavna stranica */
+body.index .logo{
+  height: 320px;
+}
+
+/* podstranice */
+body:not(.index) .logo{
+  height: 200px;
+}
