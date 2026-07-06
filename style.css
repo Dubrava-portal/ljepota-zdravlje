@@ -233,3 +233,34 @@ footer {
   color: #555;
   line-height: 1.5;
 }
+
+.article-link{
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* slika lijevo - mala kvadratna */
+.article-image{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* tekst desno */
+.article-content h3{
+    margin: 0 0 5px 0;
+    font-size: 20px;
+}
+
+.article-content p{
+    margin: 0;
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;   /* max 2 reda teksta */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
