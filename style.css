@@ -56,7 +56,8 @@ a{
 
 body.index .logo{
     height:320px;
-    object-position:center center;
+    object-fit:cover;
+    object-position:center top;
 }
 
 /* podstranice */
