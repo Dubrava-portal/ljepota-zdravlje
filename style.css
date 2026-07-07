@@ -55,9 +55,9 @@ a{
 /* naslovnica */
 
 body.index .logo{
-    height:320px;
-    object-fit:cover;
-    object-position:center top;
+    width:100%;
+    height:auto;
+    display:block;
 }
 
 /* podstranice */
