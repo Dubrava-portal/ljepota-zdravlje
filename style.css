@@ -48,8 +48,9 @@ a{
 
 .logo{
     width:100%;
+    height:auto;
+    display:block;
     border-radius:14px;
-    object-fit:cover;
 }
 
 /* naslovnica */
