@@ -66,9 +66,8 @@ body.index .logo{
 
 body:not(.index) .logo{
     width:100%;
-    height:300px;
-    object-fit:cover;
-    object-position:center top;
+    height:auto;
+    display:block;
 }
 
 .slogan{
