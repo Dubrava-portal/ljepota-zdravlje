@@ -322,6 +322,7 @@ body:not(.index) .logo{
     object-fit:cover;
     object-position:center top;
 }
+   
 .slogan{
     font-size:.8rem;
     margin-top:12px;
