@@ -363,6 +363,12 @@ body:not(.index) .logo{
 
 .news-item img{
     width:100%;
+
+   body:not(.index) .logo{
+    width:100%;
+    height:auto;
+    display:block;
+}
     height:190px;
 }
 
